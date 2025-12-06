@@ -21,6 +21,11 @@ h1 {
     text-align: center;
 }
 
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+
 .projectsGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -64,25 +69,25 @@ img {
     padding: 10px;
 }
 
-a:link {
+.projectsGrid a:link {
     color: black;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:visited {
+.projectsGrid a:visited {
     color: black;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:hover {
+.projectsGrid a:hover {
     color: black;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:active {
+.projectsGrid a:active {
     color: black;
     background-color: transparent;
     text-decoration: none;
@@ -92,6 +97,31 @@ a:active {
     text-align: center;
     padding: 20px;
     font-size: 70px;
+}
+
+button {
+    background-color: #16795B;
+    color: white;
+    border-radius: 7px;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #E9F6E9;
+    color: #007007;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: #007007;
+    text-decoration: none;
 }
 
 footer {
