@@ -3,6 +3,7 @@
 #185337 header color (dark)
 #49B27F icon color (light)
 #E9F6E9 button pressed (very light)
+#004231 highlight color (dark)
 */
 
 body {
@@ -132,4 +133,24 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: #004231;
+}
+
+::selection {
+    color: white;
+    background: #004231;
+}
+
+.mailto {
+    text-align: center;
+    font-size: large;
+}
+
+.mailto a {
+    color: #004231;
 }
