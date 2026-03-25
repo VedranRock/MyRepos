@@ -93,3 +93,9 @@ img {
     background-color: transparent;
     text-decoration: none;
 }
+
+footer {
+    background-color: #16795B;
+    color: white;
+    padding: 20px 40px;
+}
